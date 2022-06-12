@@ -117,6 +117,7 @@ class App extends React.Component {
             </div>
           </div>
         </div>
+        <div className={style.ad}>钟ye挥泪转让域名usao.cn,Tel:17705924265</div>
         <Keyboard filling={filling} keyboard={this.props.keyboard} />
         <Guide />
       </div>

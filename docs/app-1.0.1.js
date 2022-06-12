@@ -28211,7 +28211,7 @@
 /* 216 */
 /***/ (function(module, exports) {
 
-	module.exports = {"lan":["cn","en","fr","fa"],"default":"cn","data":{"title":{"cn":"俄罗斯方块","en":"T E T R I S","fr":"T E T R I S","fa":"خانه سازی"},"github":{"cn":"GitHub","en":"GitHub","fr":"GitHub","fa":"گیت‌هاب"},"linkTitle":{"cn":"查看源代码","en":"View data source","fr":"Afficher la source des données","fa":"مشاهده سورس پروژه"},"QRCode":{"cn":"二维码","en":"QR code","fr":"QR code","fa":"کیوآر کد"},"titleCenter":{"cn":"俄罗斯方块<br />TETRIS","en":"TETRIS","fr":"TETRIS","fa":"خانه سازی"},"point":{"cn":"得分","en":"Point","fr":"Score","fa":"امتیاز"},"highestScore":{"cn":"最高分","en":"Max","fr":"Max","fa":"حداکثر"},"lastRound":{"cn":"上轮得分","en":"Last Round","fr":"Dernier Tour","fa":"آخرین دور"},"cleans":{"cn":"消除行","en":"Cleans","fr":"Lignes","fa":"پاک کرد"},"level":{"cn":"级别","en":"Level","fr":"Difficulté","fa":"سطح"},"startLine":{"cn":"起始行","en":"Start Line","fr":"Ligne Départ","fa":"خط شروع"},"next":{"cn":"下一个","en":"Next","fr":"Prochain","fa":"بعدی"},"pause":{"cn":"暂停","en":"Pause","fr":"Pause","fa":"مکث"},"sound":{"cn":"音效","en":"Sound","fr":"Sonore","fa":"صدا"},"reset":{"cn":"重玩","en":"Reset","fr":"Réinitialiser","fa":"ریست"},"rotation":{"cn":"旋转","en":"Rotation","fr":"Rotation","fa":"چرخش"},"left":{"cn":"左移","en":"Left","fr":"Gauche","fa":"چپ"},"right":{"cn":"右移","en":"Right","fr":"Droite","fa":"راست"},"down":{"cn":"下移","en":"Down","fr":"Bas","fa":"پایین"},"drop":{"cn":"掉落","en":"Drop","fr":"Tomber","fa":"سقوط"}}}
+	module.exports = {"lan":["cn","en","fr","fa"],"default":"cn","data":{"title":{"cn":"俄罗斯方块","en":"T E T R I S","fr":"T E T R I S","fa":"خانه سازی"},"github":{"cn":"GitHub","en":"GitHub","fr":"GitHub","fa":"گیت‌هاب"},"linkTitle":{"cn":"查看源代码","en":"View data source","fr":"Afficher la source des données","fa":"مشاهده سورس پروژه"},"QRCode":{"cn":"二维码","en":"QR code","fr":"QR code","fa":"کیوآر کد"},"titleCenter":{"cn":"俄罗斯方块 <br>钟ye怀旧版","en":"TETRIS <br>钟ye怀旧版","fr":"TETRIS <br>钟ye怀旧版","fa":"خانه سازی"},"point":{"cn":"得分","en":"Point","fr":"Score","fa":"امتیاز"},"highestScore":{"cn":"最高分","en":"Max","fr":"Max","fa":"حداکثر"},"lastRound":{"cn":"上轮得分","en":"Last Round","fr":"Dernier Tour","fa":"آخرین دور"},"cleans":{"cn":"消除行","en":"Cleans","fr":"Lignes","fa":"پاک کرد"},"level":{"cn":"级别","en":"Level","fr":"Difficulté","fa":"سطح"},"startLine":{"cn":"起始行","en":"Start Line","fr":"Ligne Départ","fa":"خط شروع"},"next":{"cn":"下一个","en":"Next","fr":"Prochain","fa":"بعدی"},"pause":{"cn":"暂停","en":"Pause","fr":"Pause","fa":"مکث"},"sound":{"cn":"音效","en":"Sound","fr":"Sonore","fa":"صدا"},"reset":{"cn":"重玩","en":"Reset","fr":"Réinitialiser","fa":"ریست"},"rotation":{"cn":"旋转","en":"Rotation","fr":"Rotation","fa":"چرخش"},"left":{"cn":"左移","en":"Left","fr":"Gauche","fa":"چپ"},"right":{"cn":"右移","en":"Right","fr":"Droite","fa":"راست"},"down":{"cn":"下移","en":"Down","fr":"Bas","fa":"پایین"},"drop":{"cn":"掉落","en":"Drop","fr":"Tomber","fa":"سقوط"}}}
 
 /***/ }),
 /* 217 */
@@ -29676,6 +29676,11 @@
 	            )
 	          )
 	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: _index2.default.ad },
+	          '\u949Fye\u6325\u6CEA\u8F6C\u8BA9\u57DF\u540Dusao.cn,Tel:17705924265'
+	        ),
 	        _react2.default.createElement(_keyboard2.default, { filling: filling, keyboard: this.props.keyboard }),
 	        _react2.default.createElement(_guide2.default, null)
 	      );
@@ -29793,7 +29798,7 @@
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"app":"_3Lk6","rect":"_1fjB","drop":"_3YUe","screen":"_2iZA","panel":"_2lJh","state":"_1deS","bottom":"_8hag"};
+	module.exports = {"app":"_3Lk6","rect":"_1fjB","drop":"_3YUe","screen":"_2iZA","panel":"_2lJh","state":"_1deS","bottom":"_8hag","ad":"tTV9"};
 
 /***/ }),
 /* 246 */
