@@ -86,7 +86,7 @@ export default class Keyboard extends React.Component {
           color="blue"
           size="s1"
           top={0}
-          left={374}
+          left={109} // 374 - 265
           label={i18n.rotation[lan]}
           arrow="translate(0, 63px)"
           position
@@ -97,7 +97,7 @@ export default class Keyboard extends React.Component {
           color="blue"
           size="s1"
           top={180}
-          left={374}
+          left={109} // 374 - 265
           label={i18n.down[lan]}
           arrow="translate(0,-71px) rotate(180deg)"
           active={keyboard.get('down')}
@@ -107,7 +107,7 @@ export default class Keyboard extends React.Component {
           color="blue"
           size="s1"
           top={90}
-          left={284}
+          left={19} // 284 - 265
           label={i18n.left[lan]}
           arrow="translate(60px, -12px) rotate(270deg)"
           active={keyboard.get('left')}
@@ -117,7 +117,7 @@ export default class Keyboard extends React.Component {
           color="blue"
           size="s1"
           top={90}
-          left={464}
+          left={199} // 464 - 265
           label={i18n.right[lan]}
           arrow="translate(-60px, -12px) rotate(90deg)"
           active={keyboard.get('right')}
@@ -127,7 +127,7 @@ export default class Keyboard extends React.Component {
           color="blue"
           size="s0"
           top={100}
-          left={52}
+          left={367} // 52+315
           label={`${i18n.drop[lan]} (SPACE)`}
           active={keyboard.get('drop')}
           ref={(c) => { this.dom_space = c; }}
@@ -136,7 +136,7 @@ export default class Keyboard extends React.Component {
           color="red"
           size="s2"
           top={0}
-          left={196}
+          left={511} // 196+315
           label={`${i18n.reset[lan]}(R)`}
           active={keyboard.get('reset')}
           ref={(c) => { this.dom_r = c; }}
@@ -145,7 +145,7 @@ export default class Keyboard extends React.Component {
           color="green"
           size="s2"
           top={0}
-          left={106}
+          left={421} // 106+315
           label={`${i18n.sound[lan]}(S)`}
           active={keyboard.get('music')}
           ref={(c) => { this.dom_s = c; }}
@@ -154,7 +154,7 @@ export default class Keyboard extends React.Component {
           color="green"
           size="s2"
           top={0}
-          left={16}
+          left={331} // 16+315
           label={`${i18n.pause[lan]}(P)`}
           active={keyboard.get('pause')}
           ref={(c) => { this.dom_p = c; }}

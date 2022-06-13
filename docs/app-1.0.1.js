@@ -28211,7 +28211,7 @@
 /* 216 */
 /***/ (function(module, exports) {
 
-	module.exports = {"lan":["cn","en","fr","fa"],"default":"cn","data":{"title":{"cn":"俄罗斯方块","en":"T E T R I S","fr":"T E T R I S","fa":"خانه سازی"},"github":{"cn":"GitHub","en":"GitHub","fr":"GitHub","fa":"گیت‌هاب"},"linkTitle":{"cn":"查看源代码","en":"View data source","fr":"Afficher la source des données","fa":"مشاهده سورس پروژه"},"QRCode":{"cn":"二维码","en":"QR code","fr":"QR code","fa":"کیوآر کد"},"titleCenter":{"cn":"俄罗斯方块 <br>钟ye怀旧版","en":"TETRIS <br>钟ye怀旧版","fr":"TETRIS <br>钟ye怀旧版","fa":"خانه سازی"},"point":{"cn":"得分","en":"Point","fr":"Score","fa":"امتیاز"},"highestScore":{"cn":"最高分","en":"Max","fr":"Max","fa":"حداکثر"},"lastRound":{"cn":"上轮得分","en":"Last Round","fr":"Dernier Tour","fa":"آخرین دور"},"cleans":{"cn":"消除行","en":"Cleans","fr":"Lignes","fa":"پاک کرد"},"level":{"cn":"级别","en":"Level","fr":"Difficulté","fa":"سطح"},"startLine":{"cn":"起始行","en":"Start Line","fr":"Ligne Départ","fa":"خط شروع"},"next":{"cn":"下一个","en":"Next","fr":"Prochain","fa":"بعدی"},"pause":{"cn":"暂停","en":"Pause","fr":"Pause","fa":"مکث"},"sound":{"cn":"音效","en":"Sound","fr":"Sonore","fa":"صدا"},"reset":{"cn":"重玩","en":"Reset","fr":"Réinitialiser","fa":"ریست"},"rotation":{"cn":"旋转","en":"Rotation","fr":"Rotation","fa":"چرخش"},"left":{"cn":"左移","en":"Left","fr":"Gauche","fa":"چپ"},"right":{"cn":"右移","en":"Right","fr":"Droite","fa":"راست"},"down":{"cn":"下移","en":"Down","fr":"Bas","fa":"پایین"},"drop":{"cn":"掉落","en":"Drop","fr":"Tomber","fa":"سقوط"}}}
+	module.exports = {"lan":["cn","en","fr","fa"],"default":"cn","data":{"title":{"cn":"游扫轻松一刻","en":"T E T R I S","fr":"T E T R I S","fa":"خانه سازی"},"github":{"cn":"GitHub","en":"GitHub","fr":"GitHub","fa":"گیت‌هاب"},"linkTitle":{"cn":"查看源代码","en":"View data source","fr":"Afficher la source des données","fa":"مشاهده سورس پروژه"},"QRCode":{"cn":"二维码","en":"QR code","fr":"QR code","fa":"کیوآر کد"},"titleCenter":{"cn":"俄罗斯方块 <br>钟ye怀旧版","en":"TETRIS <br>钟ye怀旧版","fr":"TETRIS <br>钟ye怀旧版","fa":"خانه سازی"},"point":{"cn":"得分","en":"Point","fr":"Score","fa":"امتیاز"},"highestScore":{"cn":"最高分","en":"Max","fr":"Max","fa":"حداکثر"},"lastRound":{"cn":"上轮得分","en":"Last Round","fr":"Dernier Tour","fa":"آخرین دور"},"cleans":{"cn":"消除行","en":"Cleans","fr":"Lignes","fa":"پاک کرد"},"level":{"cn":"级别","en":"Level","fr":"Difficulté","fa":"سطح"},"startLine":{"cn":"起始行","en":"Start Line","fr":"Ligne Départ","fa":"خط شروع"},"next":{"cn":"下一个","en":"Next","fr":"Prochain","fa":"بعدی"},"pause":{"cn":"暂停","en":"Pause","fr":"Pause","fa":"مکث"},"sound":{"cn":"音效","en":"Sound","fr":"Sonore","fa":"صدا"},"reset":{"cn":"重玩","en":"Reset","fr":"Réinitialiser","fa":"ریست"},"rotation":{"cn":"旋转","en":"Rotation","fr":"Rotation","fa":"چرخش"},"left":{"cn":"左移","en":"Left","fr":"Gauche","fa":"چپ"},"right":{"cn":"右移","en":"Right","fr":"Droite","fa":"راست"},"down":{"cn":"下移","en":"Down","fr":"Bas","fa":"پایین"},"drop":{"cn":"掉落","en":"Drop","fr":"Tomber","fa":"سقوط"}}}
 
 /***/ }),
 /* 217 */
@@ -31726,8 +31726,8 @@
 	          color: 'blue',
 	          size: 's1',
 	          top: 0,
-	          left: 374,
-	          label: _const.i18n.rotation[_const.lan],
+	          left: 109 // 374 - 265
+	          , label: _const.i18n.rotation[_const.lan],
 	          arrow: 'translate(0, 63px)',
 	          position: true,
 	          active: keyboard.get('rotate'),
@@ -31739,8 +31739,8 @@
 	          color: 'blue',
 	          size: 's1',
 	          top: 180,
-	          left: 374,
-	          label: _const.i18n.down[_const.lan],
+	          left: 109 // 374 - 265
+	          , label: _const.i18n.down[_const.lan],
 	          arrow: 'translate(0,-71px) rotate(180deg)',
 	          active: keyboard.get('down'),
 	          ref: function ref(c) {
@@ -31751,8 +31751,8 @@
 	          color: 'blue',
 	          size: 's1',
 	          top: 90,
-	          left: 284,
-	          label: _const.i18n.left[_const.lan],
+	          left: 19 // 284 - 265
+	          , label: _const.i18n.left[_const.lan],
 	          arrow: 'translate(60px, -12px) rotate(270deg)',
 	          active: keyboard.get('left'),
 	          ref: function ref(c) {
@@ -31763,8 +31763,8 @@
 	          color: 'blue',
 	          size: 's1',
 	          top: 90,
-	          left: 464,
-	          label: _const.i18n.right[_const.lan],
+	          left: 199 // 464 - 265
+	          , label: _const.i18n.right[_const.lan],
 	          arrow: 'translate(-60px, -12px) rotate(90deg)',
 	          active: keyboard.get('right'),
 	          ref: function ref(c) {
@@ -31775,8 +31775,8 @@
 	          color: 'blue',
 	          size: 's0',
 	          top: 100,
-	          left: 52,
-	          label: _const.i18n.drop[_const.lan] + ' (SPACE)',
+	          left: 367 // 52+315
+	          , label: _const.i18n.drop[_const.lan] + ' (SPACE)',
 	          active: keyboard.get('drop'),
 	          ref: function ref(c) {
 	            _this3.dom_space = c;
@@ -31786,8 +31786,8 @@
 	          color: 'red',
 	          size: 's2',
 	          top: 0,
-	          left: 196,
-	          label: _const.i18n.reset[_const.lan] + '(R)',
+	          left: 511 // 196+315
+	          , label: _const.i18n.reset[_const.lan] + '(R)',
 	          active: keyboard.get('reset'),
 	          ref: function ref(c) {
 	            _this3.dom_r = c;
@@ -31797,8 +31797,8 @@
 	          color: 'green',
 	          size: 's2',
 	          top: 0,
-	          left: 106,
-	          label: _const.i18n.sound[_const.lan] + '(S)',
+	          left: 421 // 106+315
+	          , label: _const.i18n.sound[_const.lan] + '(S)',
 	          active: keyboard.get('music'),
 	          ref: function ref(c) {
 	            _this3.dom_s = c;
@@ -31808,8 +31808,8 @@
 	          color: 'green',
 	          size: 's2',
 	          top: 0,
-	          left: 16,
-	          label: _const.i18n.pause[_const.lan] + '(P)',
+	          left: 331 // 16+315
+	          , label: _const.i18n.pause[_const.lan] + '(P)',
 	          active: keyboard.get('pause'),
 	          ref: function ref(c) {
 	            _this3.dom_p = c;
